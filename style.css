@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=La+Belle+Aurore&family=Playfair+Display:ital@1&display=swap');
+* {
+    /* border: 1px solid pink; */
+ 
+}
+
+/* //////// MOBILE */
+@media (max-width: 600px) {
+
+    body{
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden; 
+
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+    #grid2 {
+        width: 90% !important;
+    }
+    #grid1 {
+        display: none !important;
+    }
+    .logo {
+        font-size: 2rem !important;
+    }
+    header>img {
+        margin-top: -45px !important;
+    }
+    h2.logo {
+        font-size: 2.25rem !important;
+    }
+
+    .icons {
+        visibility: visible !important;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        padding: 10px;
+        padding-bottom: 0px;
+        background-color: rgb(255, 242, 222);;
+    }
+    .linkWords {
+        display: none;
+    }
+    ul {
+        justify-content: space-evenly !important;
+
+    }
+    #ulWords {
+        display: none;
+    }
+    #ulIcons {
+        background-color: rgb(255, 242, 222);
+        height: 50px;
+    }
+}
+/* //////// END MOBILE */
+header {
+    overflow-y: hidden;  
+    overflow-x: hidden; 
+
+
+}
+
+body {
+    background-color: rgb(255, 242, 222);
+    color: rgb(60, 59, 59);
+    margin: 0px;
+    padding: 0px;
+}
+
+header>img {
+    position: relative;
+    width: 100%;
+    margin-top: -55px;
+    margin-bottom: -20px;
+
+    z-index: -1 ;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(60, 59, 59);
+
+}
+
+
+
+h1 {
+    font-size: 1.8rem;;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: -27px;
+    padding-bottom: 0px;
+}
+
+
+
+.logo {
+    position: relative;
+    top: -20px;
+    text-align: center;
+    letter-spacing: .3rem;
+    font-size: 3rem;
+}
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.1rem;
+
+}
+
+h2 {
+    font-family: 'La Belle Aurore', cursive;
+    margin-bottom: -20px;
+    padding-bottom: 0px;
+}
+
+h2.logo{
+    margin-top: 0%;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(255, 242, 222);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#grid1 {
+    width: 30%;
+    flex: 1;
+    background-color: rgba(70, 58, 19, 0.264);
+   padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#grid2 {
+    width: 60%;
+    flex: 3 2;
+    padding-right: 20px;
+    padding-left: 20px;
+
+
+}
+
+.grid {
+    width: 100%;
+    padding: 5px;
+
+}
+
+.roundPic {
+    width: 85%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    padding: 10px;
+}
+
+
+
+#pearl {
+    width: 25vw;
+    float: left;
+    margin-top: -20px;
+    padding-right: 15px;
+}
+
+p::first-line {
+    font-size: 2rem;
+    font-family: 'La Belle Aurore', cursive;
+
+}
+
+
+
+.line {
+    width: 100%;
+    margin: 10px;
+    height: 1px;
+    border-bottom: 1px solid rgb(60, 59, 59);
+}
+
+nav {
+
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    z-index: 999;
+
+    
+}
+
+ul {
+    border-top: 1px solid rgb(60, 59, 59);
+    width: 100%;
+    background-color: rgb(255, 242, 222);
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+
+}
+
+li, footer {
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.1rem;
+    list-style-type: none;
+}
+
+#fader {
+    position: fixed;
+    bottom: -70px;
+    height: 110px;
+    width: 100vw;
+    background-color: rgb(255, 242, 222);
+    border: 1px solid pink;
+
+}
+
+.shadow {
+    box-shadow: 0px 0px 50px rgb(60, 59, 59);
+}
+
+footer {
+    text-align: center;
+    font-family: 'Karla', sans-serif !important;
+    font-size: 1.1rem;
+    margin-top: -10px;
+
+}
+#ulIcons {
+    visibility: hidden;
+    
+}
+
+#ulWords {
+    z-index: 999999;
+}
