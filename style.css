@@ -56,6 +56,9 @@
         background-color: rgb(255, 242, 222);
         height: 50px;
     }
+    #bookMobile {
+        visibility: visible !important;
+    }
 }
 /* //////// END MOBILE */
 header {
@@ -175,7 +178,7 @@ h2.logo{
 p::first-line {
     font-size: 2rem;
     font-family: 'La Belle Aurore', cursive;
-
+    line-height: 2rem;
 }
 
 
@@ -238,9 +241,7 @@ li, footer {
 
 }
 
-#ulWords {
-    z-index: 999;
-}
+
 
 footer {
     height: 100px;
@@ -249,6 +250,30 @@ footer {
     padding-top: 20px;
     border-top: 1px solid black;;
 }
-.linkWords {
-    z-index: 1000;    
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+
+}
+img {
+    max-width: 100%;
+}
+#book>img {
+    tranform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.book {
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+#bookMobile {
+    visibility: hidden;
+}
+#bookMobile>img {
+
+    max-width: 250px;
 }
