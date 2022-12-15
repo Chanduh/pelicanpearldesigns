@@ -5,7 +5,7 @@
 }
 
 /* //////// MOBILE */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
     body{
         padding: 0px;
@@ -239,9 +239,10 @@ footer {
 }
 #ulIcons {
     visibility: hidden;
-    
+    z-index: -1;
+
 }
 
 #ulWords {
-    z-index: 999999;
+    z-index: 999;
 }
