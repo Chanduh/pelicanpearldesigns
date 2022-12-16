@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=La+Belle+Aurore&family=Playfair+Display:ital@1&display=swap');
 * {
     /* border: 1px solid pink; */
- 
+    scroll-behavior: smooth;
+
 }
 
 /* //////// MOBILE */
-@media (max-width: 800px) {
+@media (max-width: 680px) {
 
     body{
         padding: 0px;
@@ -95,7 +96,7 @@ a:link, a:visited {
 
 h1 {
     font-size: 1.8rem;;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display',serif;
     margin-bottom: -27px;
     padding-bottom: 0px;
 }
@@ -113,6 +114,10 @@ p {
     font-family: 'Karla', sans-serif;
     font-size: 1.1rem;
 
+}
+h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.1rem;
 }
 
 h2 {
@@ -139,6 +144,7 @@ h2.logo{
     flex: 1;
     background-color: rgba(70, 58, 19, 0.264);
    padding: 10px;
+   padding-left: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;  
@@ -276,4 +282,29 @@ img {
 #bookMobile>img {
 
     max-width: 250px;
+}
+
+iframe {
+    border: none;
+    height: 100%;
+    width: 100%
+}
+.hidden {
+    display: none;
+}
+#moreBut {
+    text-align: right;
+    margin-right: 100px;
+    padding: 0px;
+    margin-top: -30px;
+}
+
+#moreBut:hover, #lessBut:hover {
+    cursor: pointer;
+}
+#lessBut {
+    text-align: right;
+    margin-right: 100px;
+    padding: 0px;
+    margin-top: -30px;
 }
