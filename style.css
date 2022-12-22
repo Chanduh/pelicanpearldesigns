@@ -9,9 +9,9 @@
     /* .container {
         flex-direction: column;
     } */
-    /* #grid2 {
+    #grid2 {
         width: 90% !important;
-    } */
+    }
     #grid1 {
         display: none !important;
     }
@@ -240,9 +240,7 @@ p::first-line {
     list-style-type: none;
 }
 
-#fader {
-    visibility: hidden;
-}
+
 
 .shadow {
     box-shadow: 0px 0px 50px rgb(60, 59, 59);
